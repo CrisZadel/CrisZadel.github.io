@@ -1,0 +1,118 @@
+html {
+  min-height: 100vh;
+  position: relative;
+}
+.contenedor-perfil{
+  width:95%;
+  margin: auto;
+  display: grid;
+  padding: 5rem;
+  background:rgb(243, 234, 243);
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}      
+.contenedor-perfil > div {
+      width: 50%;
+}
+#logo {
+  max-width: 200px;
+  height: auto;
+}
+.color-1 {
+  color: #5232ed;
+}
+.color-2 {
+  color: #2cd5d9;
+}
+.color-3 {
+  color: #6e7076;
+}
+.color-4 {
+  background-color: #e1eaf8;
+}
+.color-5 {
+  background-color: #150773;
+}
+.color-6 {
+  background-color: #e1eaf8;
+}
+.letra-1 {
+  color: white;
+}
+.letra-2 {
+  color: #111111;
+}
+.hidden {
+  display: none;
+}
+.menu-bar {
+  background-image: linear-gradient(-90deg, #407fe4, #20148e);
+}
+.nav-link {
+  font-size: 16px;
+  margin: 3px;
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-nav {
+  text-align: right;
+  margin-right: 20px;
+}
+.menu-bar .navbar-brand {
+  margin-left: 2%;
+}
+.menu-bar .navbar-toggler {
+  margin-right: 2%;
+  outline: none !important;
+  border: none !important;
+}
+
+.div_box {
+  border: 2px solid black;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  margin-top: 2rem;
+  border-radius: 15px;
+}
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+/*
+.imagen_perfil{
+  height: max-content;
+  width: max-content;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  overflow-clip-margin:content-box;
+  overflow:clip;
+  display: inline-block;
+}
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */ 
+
